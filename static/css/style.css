@@ -1,0 +1,36 @@
+/* 
+leaflet-challenge - CSS Style Sheet 
+*/
+
+/* remove fefault Margin & padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body & HTML to 100% of screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* set legend style */
+.info {
+  padding: 1px 10px;
+  background: #E5E7E9;
+  border-radius: 5px;
+}
+
+.legend {
+  line-height: 25px;
+  color: #000000;
+}
+
+.legend i {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 10px;
+  opacity: 0.75;
+}
